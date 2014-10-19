@@ -1,0 +1,18 @@
+//this is
+//
+// var fs = require('fs');
+//
+// module.exports = function (mapping, callback){
+//   fs.exists(mapping.fullpath(), function (exists) {
+//     if(exists)
+//     {
+//         fs.readFile(mapping.templatePath(), function(err, data) {
+//           if (err) throw err;
+//           callback(data.toString());
+//         });
+//     }
+//     else{
+//       callback(JSON.stringify({replace:'this'}));
+//     }
+//   });
+// }
